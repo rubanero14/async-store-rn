@@ -57,6 +57,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Text>Name:{name}</Text>
+      <Text>Phone:{phone}</Text>
+      <Text>Email:{email}</Text>
       <TextInput
         style={styles.input}
         placeholder="Name"
